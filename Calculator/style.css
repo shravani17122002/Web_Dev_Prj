@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+*{
+	margin: 0;
+	padding: 0;
+	font-family:" Sofia ",serif;
+}
+body{
+	background-color: black;
+}
+
+.wrapper{
+	width: 350px;
+	height: 480px;
+	margin: 65px auto;
+	background :#606060FF ;
+	border-radius: 15px ;
+	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+#display{
+	border: none;
+	outline: none;
+	width: 330px;
+	height: 80px;
+	color:black;
+	font-size: 58px;
+	font-weight: 700;
+	padding: 10px;
+	text-align : right ;
+	background: #D6ED17FF;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+
+}
+.buttons-box{
+	margin:35px 15px;
+
+}
+.btn{
+	width: 60px;
+	height: 60px;
+	margin: 8px ;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 30px ;
+	line-height: 30px;
+	border-radius: 50%;
+	background-color:#ecedef;
+
+}
+
+.btn:hover{
+	background: rgba(0, 0, 0, 0.1);
+
+}
+.cbtn, .cbtn:hover{
+	background:hwb(0 34% 2%);
+	color:white;
+
+}
+.mbtn, .mbtn:hover{
+	background:hsl(68, 95%, 78%);
+	color:black;
+
+}
+h1{
+	text-align: center;
+	font-size: 250%;
+	background: rgb(236,237,239);
+	background: linear-gradient(120deg, rgba(236,237,239,1) 80%, rgba(182,221,25,1) 30%, rgba(236,237,239,1) 150%);
+}
+
+h3{
+	font-style:normal;
+	text-align: center;
+	background: rgb(236,237,239);
+	background: linear-gradient(120deg, rgba(236,237,239,1) 80%, rgba(182,221,25,1) 30%, rgba(236,237,239,1) 150%);
+	font-family: "Argent CF",serif;
+	font-size: 170%;
+    color:black;
+}
